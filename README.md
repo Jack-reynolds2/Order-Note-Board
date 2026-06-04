@@ -49,3 +49,15 @@ GET /api/notes
 POST /api/notes
 DELETE /api/notes/{id}
 ```
+
+## Notes
+
+The brief mentioned using Vue.js as an optional bonus. i did some initial exploring but ultimately decided to stick to using just plain HTML, CSS and JavaScript to ensure
+i created a working solution in the suggested time frame
+
+If i had more time, I would:
+
+* Refactor the frontend into Vue components
+* Add note editing functionality
+* Improve validation and user feedback
+* Add automated tests
