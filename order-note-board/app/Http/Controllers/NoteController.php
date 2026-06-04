@@ -13,7 +13,9 @@ class NoteController extends Controller
     }
 
     public function store(Request $request)
+    
     {
+
         $validated = $request->validate([
             'order_number' => 'required',
             'message' => 'required',
@@ -23,5 +25,6 @@ class NoteController extends Controller
         $note = \App\Models\Note::create($validated);
 
         return response()->json($note, 201);
+        
     }
 }
