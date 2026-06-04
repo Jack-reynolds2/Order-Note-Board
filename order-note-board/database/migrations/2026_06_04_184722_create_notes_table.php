@@ -17,7 +17,6 @@ return new class extends Migration
             $table->string('order_number');
             $table->text('message');
             $table->string('author');
-            
         });
     }
 
